@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-02-26T18:05:22.364827",
+  "mensagens_testadas": 1,
+  "repeticoes": 10,
+  "temperaturas": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "resultados_por_temperatura": {
+    "0.1": {
+      "temperatura": 0.1,
+      "total_testes": 10,
+      "testes_por_mensagem": {
+        "O sistema está com erro": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 10
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        }
+      },
+      "estatisticas": {
+        "categorias_encontradas": {
+          "Suporte": 10
+        },
+        "consistencia_media": 100.0,
+        "variacao_media": 1.0
+      }
+    },
+    "0.5": {
+      "temperatura": 0.5,
+      "total_testes": 10,
+      "testes_por_mensagem": {
+        "O sistema está com erro": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 10
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        }
+      },
+      "estatisticas": {
+        "categorias_encontradas": {
+          "Suporte": 10
+        },
+        "consistencia_media": 100.0,
+        "variacao_media": 1.0
+      }
+    },
+    "0.9": {
+      "temperatura": 0.9,
+      "total_testes": 10,
+      "testes_por_mensagem": {
+        "O sistema está com erro": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 10
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        }
+      },
+      "estatisticas": {
+        "categorias_encontradas": {
+          "Suporte": 10
+        },
+        "consistencia_media": 100.0,
+        "variacao_media": 1.0
+      }
+    }
+  }
+}

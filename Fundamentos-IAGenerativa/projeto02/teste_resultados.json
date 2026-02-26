@@ -1,0 +1,241 @@
+{
+  "timestamp": "2026-02-26T18:09:05.759526",
+  "mensagens_testadas": 3,
+  "repeticoes": 10,
+  "temperaturas": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "resultados_por_temperatura": {
+    "0.1": {
+      "temperatura": 0.1,
+      "total_testes": 30,
+      "testes_por_mensagem": {
+        "O sistema está com erro": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 10
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        },
+        "Quero cancelar minha assinatura": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 10
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        },
+        "Vocês trabalham no sábado": {
+          "categorias": [
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral"
+          ],
+          "contagem": {
+            "Geral": 10
+          },
+          "categoria_mais_frequente": "Geral",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        }
+      },
+      "estatisticas": {
+        "categorias_encontradas": {
+          "Suporte": 20,
+          "Geral": 10
+        },
+        "consistencia_media": 100.0,
+        "variacao_media": 1.0
+      }
+    },
+    "0.5": {
+      "temperatura": 0.5,
+      "total_testes": 30,
+      "testes_por_mensagem": {
+        "O sistema está com erro": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Geral",
+            "Suporte",
+            "Geral",
+            "Suporte",
+            "Suporte",
+            "Geral",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 7,
+            "Geral": 3
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 70.0,
+          "variacao": 2
+        },
+        "Quero cancelar minha assinatura": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Financeiro",
+            "Suporte",
+            "Financeiro",
+            "Suporte",
+            "Financeiro",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 7,
+            "Financeiro": 3
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 70.0,
+          "variacao": 2
+        },
+        "Vocês trabalham no sábado": {
+          "categorias": [
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral"
+          ],
+          "contagem": {
+            "Geral": 10
+          },
+          "categoria_mais_frequente": "Geral",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        }
+      },
+      "estatisticas": {
+        "categorias_encontradas": {
+          "Suporte": 14,
+          "Geral": 13,
+          "Financeiro": 3
+        },
+        "consistencia_media": 80.0,
+        "variacao_media": 1.67
+      }
+    },
+    "0.9": {
+      "temperatura": 0.9,
+      "total_testes": 30,
+      "testes_por_mensagem": {
+        "O sistema está com erro": {
+          "categorias": [
+            "Suporte",
+            "Suporte",
+            "Geral",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Suporte": 9,
+            "Geral": 1
+          },
+          "categoria_mais_frequente": "Suporte",
+          "consistencia_percentual": 90.0,
+          "variacao": 2
+        },
+        "Quero cancelar minha assinatura": {
+          "categorias": [
+            "Financeiro",
+            "Financeiro",
+            "Geral",
+            "Financeiro",
+            "Financeiro",
+            "Suporte",
+            "Geral",
+            "Financeiro",
+            "Suporte",
+            "Suporte"
+          ],
+          "contagem": {
+            "Financeiro": 5,
+            "Geral": 2,
+            "Suporte": 3
+          },
+          "categoria_mais_frequente": "Financeiro",
+          "consistencia_percentual": 50.0,
+          "variacao": 3
+        },
+        "Vocês trabalham no sábado": {
+          "categorias": [
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral",
+            "Geral"
+          ],
+          "contagem": {
+            "Geral": 10
+          },
+          "categoria_mais_frequente": "Geral",
+          "consistencia_percentual": 100.0,
+          "variacao": 1
+        }
+      },
+      "estatisticas": {
+        "categorias_encontradas": {
+          "Suporte": 12,
+          "Geral": 13,
+          "Financeiro": 5
+        },
+        "consistencia_media": 80.0,
+        "variacao_media": 2.0
+      }
+    }
+  }
+}
